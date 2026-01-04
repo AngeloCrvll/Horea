@@ -2,16 +2,16 @@
   margin: 0;
 }
 
-h2 {
-  font-size: 3.157rem;
+h1 {
+  font-size: 1.777rem;
   font-family: "Libre Baskerville", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-h3 {
-  font-size: 2.369rem;
+h2 {
+  font-size: 1.333rem;
   font-family: "Libre Baskerville", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -19,7 +19,7 @@ h3 {
 }
 
 p {
-  font-size: 1.333rem;
+  font-size: 1rem;
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -27,7 +27,7 @@ p {
 }
 
 a {
-  font-size: 1.333rem;
+  font-size: 1rem;
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -58,28 +58,32 @@ header div {
 }
 
 header .logo {
-  width: 160px;
+  width: 15vw;
+  height: auto;
+}
+
+header .hamburger {
+  width: 20vw;
   height: auto;
 }
 
 .hero {
-  padding-top: 160px;
-  padding-bottom: 40px;
+  padding: 80px 0 40px 0;
 
   color: #E9E8DD;
   
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.35)),
     url("../images/beachMan.png");
-  background-size: cover;
-  background-position: 40%;
+  background-size:cover;
+  background-position: 50% 20%;
   background-repeat: no-repeat;
 
-  border-radius: 0 0 80px 0;
+  border-radius: 0 0 40px 0;
 }
 
 .hero div {
-  padding-top: 320px;
+  margin-top: 200px;
   display: grid;
   gap: 40px;
   text-align: center;
@@ -92,7 +96,7 @@ header .logo {
   background-color: #2D728F;
 
   display: inline-block;
-  margin: 40px auto;
-  padding: 20px 80px;
+  margin: auto;
+  padding: 16px 40px;
   border-radius: 16px;
 }
