@@ -2,17 +2,29 @@
   margin: 0;
 }
 
+body {
+  background-color: #FFE6CE;
+}
+
 h1 {
   font-size: 1.777rem;
   font-family: "Libre Baskerville", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: bold;
   font-style: normal;
 }
 
 h2 {
   font-size: 1.333rem;
   font-family: "Libre Baskerville", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 1.777rem;
+  font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -98,5 +110,32 @@ header .hamburger {
   display: inline-block;
   margin: auto;
   padding: 16px 40px;
+  border-radius: 16px;
+}
+
+.quote {
+  color: #2A2A26;
+  margin: 80px 16px 80px 16px;
+  text-align: center;
+}
+
+.woman {
+  background-color: #FFCB9A;
+  border-radius: 40px 0 0 0;
+}
+
+.woman div {
+  margin: 0 16px 0 16px;
+  padding: 40px 0;
+}
+
+.woman img {
+  display: block;
+  margin: 40px auto;
+
+  width: 40vw;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: 20%;
   border-radius: 16px;
 }
