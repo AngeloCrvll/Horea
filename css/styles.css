@@ -2,12 +2,17 @@
   margin: 0;
 }
 
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
 html {
   background-color: #FFE6CE;
 }
 
 body {
-  
+  height: 100%;
   margin: 0;
   padding: 0;
   overscroll-behavior: none;
@@ -58,6 +63,10 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+}
+
+.headerFix {
+  height: px;
 }
 
 header nav {
