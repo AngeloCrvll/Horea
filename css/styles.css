@@ -59,14 +59,8 @@ a {
 }
 
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  width: 100%;
-}
-
-.headerFix {
-  height: px;
 }
 
 header nav {
@@ -97,6 +91,7 @@ header .hamburger {
 
 .hero {
   padding: 80px 0 40px 0;
+  margin-top: -40px;
 
   color: #E9E8DD;
   
