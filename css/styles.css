@@ -125,12 +125,11 @@ header .hamburger {
 .woman {
   background-color: #FFCB9A;
   border-radius: 40px 0 0 0;
-  min-height: 100vh;
 }
 
 .woman div {
   margin: 0 16px 0 16px;
-  padding: 40px 0;
+  padding: 40px 0 24px 0;
 }
 
 .woman img {
@@ -275,3 +274,18 @@ header .hamburger {
   filter: drop-shadow(0px 0px 10px #2A2A26);
 }
 
+.contact {
+  
+}
+
+.contact div {
+  background-color: #E9E8DD;
+
+  width: 80vw;
+  margin: 40px auto 0 auto;
+}
+
+.contact div div {
+  text-align: center;
+  margin: 40px 0px;
+}
