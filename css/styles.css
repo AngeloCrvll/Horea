@@ -88,7 +88,7 @@ header .hamburger {
   
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.35)),
-    url("../images/beachMan.png");
+    url("../images/beachMan.jpg");
   background-size:cover;
   background-position: 50% 20%;
   background-repeat: no-repeat;
@@ -140,5 +140,23 @@ header .hamburger {
   aspect-ratio: 1/1;
   object-fit: cover;
   object-position: 20%;
+  border-radius: 16px;
+}
+
+.menu {
+  margin: 80px 16px 0 16px;
+
+  display: grid;
+  gap: 40px;
+
+  text-align: center;
+}
+
+.menu a {
+  background-color: #2D728F;
+  color: #E9E8DD;
+
+  text-decoration: none;
+  padding: 24px 0;
   border-radius: 16px;
 }
