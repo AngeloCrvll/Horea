@@ -52,6 +52,7 @@ a {
 header {
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 header nav {
@@ -160,6 +161,11 @@ header .hamburger {
   padding: 24px 0;
   border-radius: 16px;
 }
+
+.appInfo {
+  z-index: 0;
+}
+
 .appTop {
   padding: 247px 0 80px 0;
   margin-top: -40px;
@@ -202,7 +208,9 @@ header .hamburger {
   top: 25%;
   left: 10%;
   width: 20vw;
-  border-radius: 8px;
+  border-radius: 4px;
+
+  filter: drop-shadow(0px 0px 10px #2A2A26);
 
   transform: scale(140%);
   max-width: 60px;
@@ -213,3 +221,57 @@ header .hamburger {
   left: -40%;
   top: 15%;
 }
+
+.vibe {
+  margin: 40px 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 24px;
+}
+
+.vibe img {
+  width: 40vw;
+  border-radius: 8px;
+  filter: drop-shadow(0px 0px 10px #2A2A26);
+}
+
+.releases {
+  background-color: #2D728F;
+  border-radius: 40px 0 0 0;
+}
+
+.releases .content {
+  margin: 40px 16px 0 16px;
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 24px;
+}
+
+.releases img {
+  width: 40vw;
+  border-radius: 8px;
+  filter: drop-shadow(0px 0px 10px #2A2A26);
+}
+
+.save {
+  background-color: #FFCB9A;
+}
+
+.save .content {
+  margin: 0 16px;
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 24px;
+}
+
+.save img {
+  width: 40vw;
+  border-radius: 8px;
+  filter: drop-shadow(0px 0px 10px #2A2A26);
+}
+
