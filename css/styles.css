@@ -160,3 +160,56 @@ header .hamburger {
   padding: 24px 0;
   border-radius: 16px;
 }
+.appTop {
+  padding: 247px 0 80px 0;
+  margin-top: -40px;
+  border-radius: 0 0 40px 0;
+
+  color: #E9E8DD;
+  background-color: #2A2A26;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  gap: 8px;
+}
+
+.appTop table {
+  margin-left: 16px;
+}
+
+.appTop div {
+  margin-top: 200px;
+  display: grid;
+}
+
+.appTop a {
+  display: inline-block;
+  color: #E9E8DD;
+  text-decoration: none;
+  margin-top: 20px;
+
+  background-color: #2D728F;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.appTop .appBTN {
+  text-align: center;
+}
+
+.appTop img {
+  position: relative;
+  top: 25%;
+  left: 10%;
+  width: 20vw;
+  border-radius: 8px;
+
+  transform: scale(140%);
+  max-width: 60px;
+}
+
+.appTop .home {
+  position: relative;
+  left: -40%;
+  top: 15%;
+}
