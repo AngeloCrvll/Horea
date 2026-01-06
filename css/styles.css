@@ -316,7 +316,7 @@ header .hamburger {
 
 #mail {
   width: 96%;
-  height: 60vw;
+  height: 20vh;
 }
 
 .send {
@@ -336,5 +336,6 @@ header .hamburger {
   background-color: #2A2A26;
   margin-top: -40px;
   height: 50vh;
+  min-height: 300px;
   border-radius: 0 0 40px 0;
 }
