@@ -281,8 +281,7 @@ header .hamburger {
 }
 
 .contact {
-  position: relative;
-  top: -47vh;
+  margin-top: -47vh;
 }
 
 .contact .bg {
