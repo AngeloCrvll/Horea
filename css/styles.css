@@ -82,6 +82,10 @@ header .logo {
   height: auto;
 }
 
+.deskLinks {
+  display: none;
+}
+
 header .hamburger {
   width: 20vw;
   max-width: 150px;
@@ -309,15 +313,15 @@ header .hamburger {
 }
 
 #email {
-  width: 96%;
+  width: 98.5%;
 }
 
 #subject {
-  width: 96%;
+  width: 98.5%;
 }
 
 #mail {
-  width: 96%;
+  width: 98.5%;
   height: 20vh;
 }
 
@@ -356,9 +360,9 @@ header .hamburger {
   }
 
   .appTop {
-  border-radius: 0 0 80px 0;
-  transform: translateY(-80px);
-}
+    border-radius: 0 0 80px 0;
+    transform: translateY(-80px);
+  }
 
   .appTop .appBTN {
     text-align: left;
@@ -419,6 +423,31 @@ header .hamburger {
   a {
     font-size: 1.333rem;
   }
+
+  header nav {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+  }
+
+  header h1 {
+    display: none;
+  }
+
+  header .deskLinks {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 8px;
+  }
+
+  header .deskLinks a {
+    text-decoration: none;
+    color: #2A2A26;
+
+    background: #E9E8DD;
+    margin: auto;
+    padding: 8px 7vw;
+    border-radius: 8px;
+  }
   
   header .hamburger {
     display: none;
@@ -427,6 +456,8 @@ header .hamburger {
   .hero div {
     margin-top: 80px;
   }
+
+
 
   .woman div {
     display: grid;
@@ -443,5 +474,17 @@ header .hamburger {
 
   .woman img {
     width: 25vw;
+  }
+
+  .send {
+    background: none;
+    margin-top: 24px;
+    text-align: center;
+  }
+
+  .send a {
+  background-color: #2D728F;
+  padding: 10px 48px;
+  border-radius: 8px;
 }
 }
