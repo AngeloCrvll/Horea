@@ -448,6 +448,10 @@ header .hamburger {
     padding: 8px 7vw;
     border-radius: 8px;
   }
+
+  header .deskLinks a:hover {
+    background: #D7D5C8;
+  }
   
   header .hamburger {
     display: none;
@@ -457,7 +461,9 @@ header .hamburger {
     margin-top: 80px;
   }
 
-
+  .hero a:hover {
+    background-color: #1E4E62;
+  }
 
   .woman div {
     display: grid;
@@ -476,6 +482,10 @@ header .hamburger {
     width: 25vw;
   }
 
+  .appTop a:hover{
+    background: #1E4E62;
+  }
+
   .send {
     background: none;
     margin-top: 24px;
@@ -483,8 +493,12 @@ header .hamburger {
   }
 
   .send a {
-  background-color: #2D728F;
-  padding: 10px 48px;
-  border-radius: 8px;
-}
+    background: #2D728F;
+    padding: 10px 48px;
+    border-radius: 8px;
+  }
+
+  .send a:hover {
+    background: #1E4E62;
+  }
 }
